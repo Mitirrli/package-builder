@@ -1,23 +1,23 @@
 <?php
 
 /*
- * This file is part of the overtrue/package-builder.
+ * This file is part of the mitirrli/package-builder.
  *
- * (c) overtrue <i@overtrue.me>
+ * (c) mitirrli <i@mitirrli.me>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace Overtrue\PackageBuilder;
+namespace Mitirrli\PackageBuilder;
 
-use Overtrue\PackageBuilder\Commands\BuildCommand;
+use Mitirrli\PackageBuilder\Commands\BuildCommand;
 use Symfony\Component\Console\Application as BasicApplication;
 
 /**
  * Class Application.
  *
- * @author overtrue <i@overtrue.me>
+ * @author mitirrli <i@mitirrli.me>
  */
 class Application extends BasicApplication
 {

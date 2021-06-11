@@ -1,15 +1,15 @@
 {
-    "name": "overtrue/package-builder",
+    "name": "mitirrli/package-builder",
     "description": "A composer package builder.",
     "keywords": ["composer", "package", "php", "package-builder"],
     "autoload": {
         "psr-4": {
-            "Overtrue\\PackageBuilder\\": "src"
+            "Mitirrli\\PackageBuilder\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Overtrue\\Tests\\": "tests/"
+            "Mitirrli\\Tests\\": "tests/"
         }
     },
     "require": {
@@ -24,8 +24,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "overtrue",
-            "email": "i@overtrue.me"
+            "name": "mitirrli",
+            "email": "phper.blue@gmail.com"
         }
     ]
 }

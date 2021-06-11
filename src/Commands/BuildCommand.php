@@ -1,15 +1,15 @@
 <?php
 
 /*
- * This file is part of the overtrue/package-builder.
+ * This file is part of the mitirrli/package-builder.
  *
- * (c) overtrue <i@overtrue.me>
+ * (c) mitirrli <i@mitirrli.me>
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace Overtrue\PackageBuilder\Commands;
+namespace Mitirrli\PackageBuilder\Commands;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -22,7 +22,7 @@ use Symfony\Component\Filesystem\Filesystem;
 /**
  * Class BuildCommand.
  *
- * @author overtrue <i@overtrue.me>
+ * @author mitirrli <i@mitirrli.me>
  */
 class BuildCommand extends Command
 {
